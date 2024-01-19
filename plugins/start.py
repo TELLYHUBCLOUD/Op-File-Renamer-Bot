@@ -14,12 +14,12 @@ async def start(client, message):
     user = message.from_user
     if not await db.is_user_exist(user.id):
         await db.add_user(user.id)             
-    txt=f"HEY 🦋 {user.mention} \n I Am Simply File Rename+File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support!"
+    txt=f"HEY {user.mention} \n I Am Simply File Rename+File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support!"
     button=InlineKeyboardMarkup([[
         InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", callback_data='dev')
         ],[
-        InlineKeyboardButton('✜ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/Opleech'),
-        InlineKeyboardButton('✜ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭', url='https://t.me/WD_Topic_Group')
+        InlineKeyboardButton('✜ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/TELLYCLOUD_BOTS'),
+        InlineKeyboardButton('✜ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭', url='https://t.me/TELLYCLOUD')
         ],[
         InlineKeyboardButton('✜ 𝐀𝐛𝐨𝐮𝐭', callback_data='about'),
         InlineKeyboardButton('✜ 𝐇𝐞𝐥𝐩', callback_data='help')
@@ -63,12 +63,12 @@ async def cb_handler(client, query: CallbackQuery):
     data = query.data 
     if data == "start":
         await query.message.edit_text(
-            text=f"""HEY 🦋 {query.from_user.mention} \nI Am Simply File Rename+File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support! """,
+            text=f"""HEY {query.from_user.mention} \nI Am Simply File Rename+File To Video Converter Bot With Permanent Thumbnail & Custom Caption Support! """,
             reply_markup=InlineKeyboardMarkup( [[
                 InlineKeyboardButton("𝐂𝐨𝐧𝐭𝐚𝐜𝐭", callback_data='dev')                
                 ],[
-                InlineKeyboardButton('✜ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/Opleech'),
-                InlineKeyboardButton('✜ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭', url='https://t.me/WD_Topic_Group')
+                InlineKeyboardButton('✜ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬', url='https://t.me/TELLYCLOUD_BOTS'),
+                InlineKeyboardButton('✜ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭', url='https://t.me/TELLYCLOUD')
                 ],[
                 InlineKeyboardButton('✜ 𝐀𝐛𝐨𝐮𝐭', callback_data='about'),
                 InlineKeyboardButton('✜ 𝐇𝐞𝐥𝐩', callback_data='help')
@@ -101,7 +101,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
                #⚠️ don't change Contact & Contact link ⚠️ #
-               InlineKeyboardButton("🦋 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 🦋", url="https://t.me/WD_Contact_Bot")
+               InlineKeyboardButton("🦋 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 🦋", url="https://t.me/TELLYHUBSUPPORTS")
                ],[
                InlineKeyboardButton("⫷◆𝐁𝐚𝐜𝐤", callback_data = "start"),
                InlineKeyboardButton("✘ 𝐂𝐥𝐨𝐬𝐞", callback_data = "close")

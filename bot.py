@@ -35,7 +35,7 @@ class Bot(Client):
             logging.warning(e)
             logging.warning("🦋 Make Sure Bot admin in force sub channel")             
             self.force_channel = None      
-       logging.info(f"{me.first_name} Op Started ⚡️⚡️⚡️")
+       logging.info(f"{me.first_name} TC Started ⚡️⚡️⚡️")
       
 
     async def stop(self, *args):

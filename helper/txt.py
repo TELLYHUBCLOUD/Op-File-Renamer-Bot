@@ -6,13 +6,13 @@ class mr(object):
 ┣⪼ ⏳️ : {0}%
 ┣⪼ 🚀 : {3}/s
 ┣⪼ ⏱️ : {4}
-╰━━━❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™━━➣ """
+╰━━━❖ TELLY CLOUD ❖ ™━━➣ """
 
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 My Name : {}
-├❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™ : <a href=https://t.me/Opleech>Click Here</a> 
-├👨‍💻 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : <a href=https://t.me/WD_Contact_Bot>Click Here</a>
+├❖ TELLY CLOUD ❖ ™ : <a href=https://t.me/TELLYCLOUD_BOTS>Click Here</a> 
+├👨‍💻 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 : <a href=https://t.me/TELLYHUBSUPPORTS>Click Here</a>
 ├📕 Library : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├✏️ Language : <a href=https://www.python.org>Python 3</a>
 ├💾 Database : <a href=https://cloud.mongodb.com>MongoDB</a>
@@ -45,8 +45,8 @@ Example:- /set_caption 📕 File Name: {filename}
     DEV_TXT = """
 <b><u>Special Thanks & Developers</b></u> 
 
-» Contact: <a href=https://t.me/WD_Contact_Bot>Contact Bot</a>
+» Contact: <a href=https://t.me/TELLYHUBSUPPORTS>Contact Bot</a>
 
-⌾ ❣️ <a href=https://t.me/Opleech>❖ 𝐖𝐃 𝐙𝐎𝐍𝐄 ❖ ™</a>
-⌾ ❣️ <a href=https://t.me/WD_Topic_Group>WD Topic Group</a>
+⌾ ❣️ <a href=https://t.me/TELLYCLOUD_BOTS>❖ TELLY CLOUD ❖ ™</a>
+⌾ ❣️ <a href=https://t.me/TELLYCLUD>Topic Group</a>
 """
